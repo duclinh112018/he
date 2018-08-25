@@ -1,0 +1,61 @@
+/* Mini Desktop 1199px */
+@media screen and (max-width: 1199px) {
+
+
+    /* HEADER */
+    .content-menu {padding-left: 60px;}
+    .logo {padding-top: 40px;}
+
+    /* CONTENT-MAIN */
+        /* intro */
+    .cung-cap-khoa-hoc > h4 {font-size: 20px;}
+    .cung-cap-khoa-hoc > p:nth-child(1), 
+    .cung-cap-khoa-hoc > p:nth-child(2) {font-size: 15px;}
+    .qs-sticker span {font-size: 40px;}
+    .v-sticker ul li {font-size: 25px;}
+
+        /* qs-sticker */
+    .qs-sticker {padding-top: 30px; padding-bottom: 35px;}
+    .qs-sticker #sp {font-size: 40px;}
+    .qs-sticker #sp:before {top: 10px; width: 20px;}
+    .qs-sticker #sp:after {top: 10px;}
+    .qs-sticker .question img {
+        top: -30px;
+        right: -50px;
+    }
+    .qs-sticker > .container > p {font-size: 18px;}
+    .tt-info {
+        margin-top: 35px;
+        padding: 35px;
+    }
+
+        /* course */
+    .content-act {margin-left: 60px;}
+    .content-act .list-block {padding-left: 50px;}
+    .content-act .list-block h4 {font-size: 20px;}
+    .content-act .list-block p {margin-bottom: 40px;}
+    .content-act h2 {margin-bottom: 65px; font-size: 25px;}
+    .programming {margin-bottom: 0;}
+
+        /* intro-laptrinh */
+    .programming > h2 {
+        font-size: 40px;
+        margin: 0;
+        padding: 30px 0 20px 0;
+    }
+    .programming > p {font-size: 18px;}
+
+        /* news */
+    .label-news > p {font-size: 18px;}
+    .main-news > a {font-size: 15px;}
+
+        /* lien-ket */
+    .lien-ket h2 {font-size: 40px;}
+
+    /* FOOTER */
+    .lh p {
+        font-size: 13px;
+    }
+
+
+}
