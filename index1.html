@@ -535,18 +535,6 @@
                                     <span class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                                 </div>
                             </div>
-                            <script>
-                                $(document).ready(function() {
-                                    $('.slider-slick1').slick({
-                                        slidesToShow: 4,
-                                        slidesToScroll: 1,
-                                        autoplay: true,
-                                        autoplaySpeed: 3000,
-                                        prevArrow: '.alight .prev',
-                                        nextArrow: '.alight .next',
-                                    });
-                                });
-                            </script>
                         </div>
                         <div class="chi-tiet">
                             <a href="#">Xem chi tiết</a>
@@ -568,15 +556,14 @@
                                     <div class="item img2">2</div>
                                     <div class="item img3">3</div>
                                     <div class="item img4">4</div>
+                                    <div class="item img5">5</div>
+                                    <div class="item img6">6</div>
+                                </div>
+                                <div class="controllers">
+                                    <span class="prev1"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                                    <span class="next1"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                                 </div>
                             </div>
-                            <script>
-                                $(document).ready(function() {
-                                    $('.slider-slick2').slick({
-                                        slidesToShow: 4
-                                    });
-                                });
-                            </script>
                         </div>
                         <div class="chi-tiet">
                             <a href="#">Xem chi tiết</a>
@@ -599,12 +586,41 @@
                                     <div class="item img2">2</div>
                                     <div class="item img3">3</div>
                                     <div class="item img4">4</div>
+                                    <div class="item img5">5</div>
+                                    <div class="item img6">6</div>
+                                </div>
+                                <div class="controllers">
+                                    <span class="prev2"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                                    <span class="next2"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                                 </div>
                             </div>
                             <script>
                                 $(document).ready(function() {
+                                    $('.slider-slick1').slick({
+                                        slidesToShow: 4,
+                                        slidesToScroll: 1,
+                                        autoplay: true,
+                                        autoplaySpeed: 3000,
+                                        prevArrow: '.alight .prev',
+                                        nextArrow: '.alight .next'
+                                    });
+
+                                    $('.slider-slick2').slick({
+                                        slidesToShow: 4,
+                                        slidesToScroll: 1,
+                                        autoplay: true,
+                                        autoplaySpeed: 3000,
+                                        prevArrow: '.alight .prev1',
+                                        nextArrow: '.alight .next1'
+                                    });
+
                                     $('.slider-slick3').slick({
-                                        slidesToShow: 4
+                                        slidesToShow: 4,
+                                        slidesToScroll: 1,
+                                        autoplay: true,
+                                        autoplaySpeed: 3000,
+                                        prevArrow: '.alight .prev2',
+                                        nextArrow: '.alight .next2'
                                     });
                                 });
                             </script>
