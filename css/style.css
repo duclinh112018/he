@@ -10,6 +10,8 @@ html, body {
     height: 100%;
 }
 
+.thead-color {background-color: #08c; color: #fff;}
+
 * {
     padding: 0;
     margin: 0;
@@ -405,7 +407,7 @@ input[type=search]:focus { width: 220px;}
 /*                                                                                 */
 /***********************************************************************************/
 
-.describe, .khoahoc-dt .container > p {    
+.describe, .title-col-course > p {    
     margin: 0 0 5px 0;
     font-size: 18px;
     font-weight: 100;
@@ -974,22 +976,31 @@ input[type=search]:focus { width: 220px;}
 
 .alight {position: relative;}
 
-.controllers .prev {
+.controllers .prev, 
+.controllers .prev1, 
+.controllers .prev2 {
     position: absolute;
     top: 50%;
     left: -25px;
     cursor: pointer;
 }
 
-.controllers .next {
+.controllers .next,
+.controllers .next1, 
+.controllers .next2 {
     position: absolute;
     top: 50%;
     right: -25px;
     cursor: pointer;
 }
 
-.controllers .next i:hover , 
-.controllers .prev i:hover{color: #333;}
+.controllers .next i:hover,
+.controllers .next1 i:hover, 
+.controllers .next2 i:hover, 
+.controllers .prev i:hover,
+.controllers .prev1 i:hover, 
+.controllers .prev2 i:hover 
+{color: #333;}
 
 .chi-tiet {
     text-align: center;
@@ -1887,23 +1898,6 @@ input[type=search]:focus { width: 220px;}
     background-repeat: no-repeat;
 }
 
-/* Slick slider 7 Update */
-.controllers .prev1 {
-    position: absolute;
-    top: 50%;
-    left: -10px;
-}
-
-.controllers .next1 {
-    position: absolute;
-    top: 50%;
-    right: -10px;
-}
-
-.controllers .next1 i:hover , 
-.controllers .prev1 i:hover{color: #333;}
-
-/* End Slick-Slider7 Update */
 
 /* Ct-gt4 */
 
@@ -2071,11 +2065,13 @@ input[type=search]:focus { width: 220px;}
 .hoatdong-daotao {
     text-align: center;
     background-color: #fff;
-    padding: 75px 0;
+    padding: 50px 0;
     position: relative;
 }
 
-.hoatdong-daotao > .container > h2, .khoahoc-dt .container > h2, .title-list-course > h2 {
+.hoatdong-daotao > .container > h2, 
+.title-col-course > h2, 
+.title-list-course > h2 {
     font-weight: 100;
     font-size: 40px;
     margin: 0;
@@ -2084,8 +2080,14 @@ input[type=search]:focus { width: 220px;}
     color: #0c3332;
 }
 
-.hoatdong-daotao .container > h2 > b, 
-.khoahoc-dt .container > h2 > b, .title-list-course > h2 > b {color: #08c;}
+.title-col-course > h2, 
+.title-list-course > h2 {
+    font-size: 30px !important;
+}
+
+.hoatdong-daotao > .container > h2 > b, 
+.title-col-course > h2 > b, 
+.title-list-course > h2 > b {color: #08c;}
 .hoatdong-daotao > .container > h3 {
     font-size: 20px;
     font-weight: 500;
@@ -2124,22 +2126,39 @@ input[type=search]:focus { width: 220px;}
     text-align: left;
 }
 
-.khoahoc-dt .container > p {
+.title-col-course > p {
     text-align: left !important;
 }
 
 .title-khoahoc {
     border-bottom: 20px solid #08c;
-    background-color: #f9f9f9;
+    background-color: #ececec;
     padding: 30px 0;
 }
+
+.title-col-course > p {
+    color: #000 !important;
+}
 .khoahoc-slider {
-    padding: 40px 0;
-    background-color: #053636;
+    padding: 25px 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .learning-table {
     padding: 30px 0;
+}
+
+.table-list-course {
+    margin-top: 10px;
+}
+
+.table-list-course  tr > td {
+    padding-bottom: 40px !important;
+    font-size: 14px;
+}
+.table-list-course th {
+    font-size: 16px;
 }
 /***********************************************************************************/
 /*                                                                                 */
